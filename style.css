@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: #002930;
+}
+
+/*Boas vindas*/
+.cabeçalho {
+    color: white;
+    text-align: center;
+
+
+
+}
+
+
+.links li {
+    margin-left: 100px;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10px;
+
+
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/*Conteudo principal*/
+.main p {
+
+    border-bottom: 3px solid gray;
+    font-size: 40px;
+    display: inline;
+    color: white;
+
+}
+
+.main li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: whitesmoke;
+
+
+}
+
+#sem_bolinha {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#sem_bolinha a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*formulário*/
+
+.contato {
+    margin-left: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
